@@ -12,6 +12,11 @@ class Test extends CI_Controller {
 		$this->load->view('welcome_message',array('name'=>'Soy tester :D'));
 	}
 
+	public function key()
+	{
+		echo md5("peliculas");
+	}
+
 }
 
 /* End of file test.php */

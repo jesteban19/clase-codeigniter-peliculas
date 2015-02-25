@@ -19,8 +19,7 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$data['name'] = $_GET['name'];
-		$this->load->view('welcome_message',$data);
+		$this->load->view('welcome_message');
 	}
 }
 
